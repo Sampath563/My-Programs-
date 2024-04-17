@@ -5,7 +5,7 @@ for i in range(n):
     for j in range (spaces):
         print(" ", end = "")
     for j in range (stars):
-        print(j+1, end="")
+        print("*", end="")
     print()
     spaces = spaces - 1
     stars=stars+1
