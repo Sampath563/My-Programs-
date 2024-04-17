@@ -8,4 +8,4 @@ for i in range(n):
         print("*", end="")
     print()
     spaces = spaces - 1
-    stars=stars+1
+    stars=stars+1
