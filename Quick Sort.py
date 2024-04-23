@@ -29,3 +29,8 @@ def performQuickSort(nums, left, right):
 n = int(input().strip())
 nums = list(map(int, input().split()))
  
+
+ 
+performQuickSort(nums, 0, n - 1)
+for i in range(n) :
+    print(nums[i],end = " ")
