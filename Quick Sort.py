@@ -21,3 +21,11 @@ def performQuickSort(nums, left, right):
     if left >= right:
         return 
     pivotIndex = findPivotIndex(nums, left, right)
+   
+ 
+    performQuickSort(nums, left, pivotIndex - 1)
+    performQuickSort(nums, pivotIndex + 1, right)
+ 
+n = int(input().strip())
+nums = list(map(int, input().split()))
+ 
