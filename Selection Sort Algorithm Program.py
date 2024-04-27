@@ -21,3 +21,7 @@ def performSelectionSort(nums):
  
 n = int(input().strip())
 nums = list(map(int, input().split()))
+ 
+performSelectionSort(nums)
+for i in range(n):
+    print(nums[i],end=" ")
